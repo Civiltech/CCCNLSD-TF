@@ -129,9 +129,9 @@ dojo.declare("js.config", null, {
     InfoWindowCreateTitle: "Enter Comment Details",
     InfoWindowCreateType: "",
     InfoWindowCreateComments: "",
-    InfoWindowCreateName: "Name (optional)",
-    InfoWindowCreatePhone: "Phone (optional)",
-    InfoWindowCreateEmail: "Email (optional)",
+    InfoWindowCreateName: "Name*",
+    InfoWindowCreatePhone: "Phone*",
+    InfoWindowCreateEmail: "Email*",
     
 	
 
