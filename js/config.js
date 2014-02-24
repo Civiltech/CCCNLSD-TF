@@ -130,9 +130,15 @@ dojo.declare("js.config", null, {
     InfoWindowCreateType: "",
     InfoWindowCreateComments: "",
 <<<<<<< HEAD
+<<<<<<< HEAD
     InfoWindowCreateName: "",
     InfoWindowCreatePhone: "",
     InfoWindowCreateEmail: "",
+=======
+    InfoWindowCreateName: "Name*",
+    InfoWindowCreatePhone: "Phone*",
+    InfoWindowCreateEmail: "Email*",
+>>>>>>> 030c0fd5cbef44009d7fdc0ce0c49a79ec43fb98
 =======
     InfoWindowCreateName: "Name*",
     InfoWindowCreatePhone: "Phone*",
