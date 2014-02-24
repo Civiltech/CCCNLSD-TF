@@ -129,25 +129,12 @@ dojo.declare("js.config", null, {
     InfoWindowCreateTitle: "Enter Comment Details",
     InfoWindowCreateType: "",
     InfoWindowCreateComments: "",
-<<<<<<< HEAD
-<<<<<<< HEAD
     InfoWindowCreateName: "",
     InfoWindowCreatePhone: "",
     InfoWindowCreateEmail: "",
-=======
-    InfoWindowCreateName: "Name*",
-    InfoWindowCreatePhone: "Phone*",
-    InfoWindowCreateEmail: "Email*",
->>>>>>> 030c0fd5cbef44009d7fdc0ce0c49a79ec43fb98
-=======
-    InfoWindowCreateName: "Name*",
-    InfoWindowCreatePhone: "Phone*",
-    InfoWindowCreateEmail: "Email*",
->>>>>>> 030c0fd5cbef44009d7fdc0ce0c49a79ec43fb98
-    
-	
 
-    // Info-popup is a popup dialog that gets displayed on selecting a feature
+    
+	// Info-popup is a popup dialog that gets displayed on selecting a feature
     // Set the content to be displayed on the info-Popup. Define labels, field values, field types and field formats
     InfoWindowData: [{
         DisplayText: "Type:",
