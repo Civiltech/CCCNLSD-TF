@@ -219,51 +219,59 @@ body, html
 {
     width: 100%;
     height: 100%;
+	
 }
 
 .imgOptions
 {
-    height: 30px;
-    width: 30px;
+    height: 75px;
+    width: 75px;
+	
 }
 
 .imgApp
 {
-    width: 75px;
-    height: 45px;
+    width: 165px;
+    height: 80px;
+	
+	
 }
 
 .divLogo
 {
     position: absolute !important;
-    top: 5px;
+    top: 0px;
     left: 0px;
-    width: 75px;
-    height: 75px;
+	padding-bottom: 5px;
+    width: 175px;
+    height: 100px;
     z-index: 1001;
     display: none;
+	
 }
 
 .divApplicationHeader
 {
     vertical-align: middle;
-    background: #1665A1;
+    background: url('http://farm8.staticflickr.com/7297/11514049184_74e7c845d8_o.jpg');
     -pie-background: rgba(0,0,0,0.9);
     behavior: url("styles/PIE.htc");
     top: 0px;
-    height: 60px;
+    height: 85px;
     width: 100%;
     position: absolute;
     z-index: 1000;
     overflow: hidden;
-    font-size: 24px;
+    font-size: 25px;
 	font-family: Verdana;
 	font-weight: bolder;
+	border-bottom: solid;
+	border-width: 1px #FFF;
 }
 
 .lblAppName
 {
-    padding-left: 100px;
+    padding-left: 175px;
 }
 
 /*---------------------------------------------------------------------------------------------------------*/
