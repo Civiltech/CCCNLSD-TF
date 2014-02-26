@@ -73,7 +73,7 @@ html, body
 .imgOptions, .imgShare
 {
     height: 44px !important;
-    width: 44px !important;
+    width: 150px !important;
     vertical-align: middle;
 }
 
