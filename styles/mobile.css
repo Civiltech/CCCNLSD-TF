@@ -59,6 +59,7 @@ html, body
 .tableHeader
 {
     width: 200px;
+
 }
 
 .tdHeader
@@ -66,6 +67,7 @@ html, body
     width: 70px;
     font-weight: bolder;
     padding: 0px 10px 0px 10px;
+	height: 60px;
 }
 
 .imgOptions, .imgShare
