@@ -225,14 +225,14 @@ body, html
 .imgOptions
 {
     height: 75px;
-    width: 75px;
+    width: 150px;
 	
 }
 
 .imgApp
 {
-    width: 165px;
-    height: 80px;
+    width: 150px;
+    height: 70px;
 	
 	
 }
@@ -242,9 +242,8 @@ body, html
     position: absolute !important;
     top: 0px;
     left: 0px;
-	padding-bottom: 5px;
-    width: 175px;
-    height: 100px;
+    width: 150px;
+    height: 50px;
     z-index: 1001;
     display: none;
 	
@@ -254,16 +253,14 @@ body, html
 {
     vertical-align: middle;
     background: url('http://farm8.staticflickr.com/7297/11514049184_74e7c845d8_o.jpg');
-    -pie-background: rgba(0,0,0,0.9);
-    behavior: url("styles/PIE.htc");
     top: 0px;
-    height: 85px;
+    height: 75px;
     width: 100%;
     position: absolute;
     z-index: 1000;
     overflow: hidden;
-    font-size: 25px;
-	font-family: Verdana;
+    font-size: 22px;
+	font-family: arial;
 	font-weight: bolder;
 	border-bottom: solid;
 	border-width: 1px #FFF;
