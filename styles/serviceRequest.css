@@ -71,7 +71,7 @@ body, html
 .divSplashScreenContent
 {
     z-index: 1003;
-    background-color: #1665A1;
+    background-color: #009900;
     text-align: center;
 	
 }
@@ -253,7 +253,7 @@ body, html
 .divApplicationHeader
 {
     vertical-align: middle;
-    background: url('http://farm8.staticflickr.com/7297/11514049184_74e7c845d8_o.jpg');
+    background-color: #009900;
     top: 0px;
     height: 75px;
     width: 100%;

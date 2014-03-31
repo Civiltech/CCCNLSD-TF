@@ -49,13 +49,13 @@ dojo.declare("js.config", null, {
     // GENERAL SETTINGS
     // ------------------------------------------------------------------------------------------------------------------------
     // Set application title
-    ApplicationName: "Preliminary Alternatives Development  |  North Lake Shore Drive Phase I Study",
+    ApplicationName: "North Lake Shore Drive Phase I Study  -  <i>Ideas to Redefine the Drive</i>",
 
     // Set application icon path
     ApplicationIcon: "https://farm8.staticflickr.com/7165/13536590615_d8155f24a9_o.jpg",
 
     // Set splash window content - Message that appears when the application starts
-    SplashScreenMessage: "<h2>NORTH LAKE SHORE DRIVE STUDY</h2><h3>Ideas to Redefine the Drive</h3>Click directly on the map to share your transportation related idea to improve the North Lake Shore Drive multi-modal corridor.  Each idea must correlate to a specific transportation mode as well as one of the identified project Purpose & Need categories.<br/><br/>Click the blue question mark icon in the upper right for more application help options and to view the map legend.",
+    SplashScreenMessage: "<h2>NORTH LAKE SHORE DRIVE STUDY</h2><h3>Ideas to <i>Redefine the Drive</i></h3>Click directly on the map to share your transportation related idea to improve the North Lake Shore Drive multi-modal corridor.  Each idea must correlate to a specific transportation mode as well as one of the identified project Purpose & Need categories.<br/><br/>Click the blue question mark icon in the upper right for more application help options and to view the map legend.",
 
     // Set URL of help page/portal
     HelpURL: "help.htm",
@@ -95,14 +95,14 @@ dojo.declare("js.config", null, {
 
     OperationalLayers: {
         //URL used for doing query task on the ServiceRequest layer
-        ServiceRequestLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/Purpose_Need_Categoriesnew/FeatureServer/0",
+        ServiceRequestLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/Purpose_Need_Categories/FeatureServer/0",
         //Set the primary key attribute for servicerequest
         RequestId: "${REQUESTID}",
 
-        ServiceRequestMobileLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/Purpose_Need_Categoriesnew/FeatureServer/0",
+        ServiceRequestMobileLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/Purpose_Need_Categories/FeatureServer/0",
 
         //URL used for doing query task on the comments layer
-        ServiceRequestCommentsLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/Purpose_Need_Categoriesnew/FeatureServer/1",
+        ServiceRequestCommentsLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/Purpose_Need_Categories/FeatureServer/1",
         //Set the primary key attribute for the comments
         CommentId: "${REQUESTID}"
 
@@ -130,7 +130,7 @@ dojo.declare("js.config", null, {
     InfoWindowCreateType: "",
     InfoWindowCreateComments: "",
     InfoWindowCreateName: "",
-    InfoWindowCreatePhone: "",
+    InfoWindowCreatePhone: "Mode:",
     InfoWindowCreateEmail: "",
 	 InfoWindowCreateAttach: "",
     
