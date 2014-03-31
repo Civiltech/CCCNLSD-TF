@@ -49,13 +49,13 @@ dojo.declare("js.config", null, {
     // GENERAL SETTINGS
     // ------------------------------------------------------------------------------------------------------------------------
     // Set application title
-    ApplicationName: "Preliminary Alternatives Development | North Lake Shore Drive Phase 1 Study",
+    ApplicationName: "Preliminary Alternatives Development  |  North Lake Shore Drive Phase I Study",
 
     // Set application icon path
-    ApplicationIcon: "http://farm8.staticflickr.com/7415/11311699013_b2493ab9f7_o.png",
+    ApplicationIcon: "https://farm8.staticflickr.com/7165/13536590615_d8155f24a9_o.jpg",
 
     // Set splash window content - Message that appears when the application starts
-    SplashScreenMessage: "<h2>Civiltech Engineering, Inc.</h2><b>Citizen Comment Collector App</b><br/><b>Preliminary Alternative Development<br/>North Lake Shore Drive</b><br/><br/>Click directly on the map to choose a comment location. Then, provide additional detail in the pop up comment form. Click or tap 'Submit' to finalize your request. Please only place comments inside the blue project corridor.<br/><br/>Click the blue question mark icon in the upper right for more application help options and to view the map legend.",
+    SplashScreenMessage: "<h2>NORTH LAKE SHORE DRIVE STUDY</h2><h3>Ideas to Redefine the Drive</h3>Click directly on the map to share your transportation related idea to improve the North Lake Shore Drive multi-modal corridor.  Each idea must correlate to a specific transportation mode as well as one of the identified project Purpose & Need categories.<br/><br/>Click the blue question mark icon in the upper right for more application help options and to view the map legend.",
 
     // Set URL of help page/portal
     HelpURL: "help.htm",
@@ -95,14 +95,14 @@ dojo.declare("js.config", null, {
 
     OperationalLayers: {
         //URL used for doing query task on the ServiceRequest layer
-        ServiceRequestLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/NLSDTaskForceCommentsNew/FeatureServer/0",
+        ServiceRequestLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/Purpose_Need_Categoriesnew/FeatureServer/0",
         //Set the primary key attribute for servicerequest
         RequestId: "${REQUESTID}",
 
-        ServiceRequestMobileLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/NLSDTaskForceCommentsNew/FeatureServer/0",
+        ServiceRequestMobileLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/Purpose_Need_Categoriesnew/FeatureServer/0",
 
         //URL used for doing query task on the comments layer
-        ServiceRequestCommentsLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/NLSDTaskForceCommentsNew/FeatureServer/1",
+        ServiceRequestCommentsLayerURL: "https://services1.arcgis.com/E46xbxblkkNBM6FT/arcgis/rest/services/Purpose_Need_Categoriesnew/FeatureServer/1",
         //Set the primary key attribute for the comments
         CommentId: "${REQUESTID}"
 
@@ -114,7 +114,7 @@ dojo.declare("js.config", null, {
 
     // Info-window is a small, two line popup that gets displayed on selecting a feature
     // Set Info-window title. Configure this with text/fields
-    InfoWindowHeader: "Review Comment Details",
+    InfoWindowHeader: "Review Purpose & Need Comment Details",
 
     // Choose content/fields for the info window
     InfoWindowContent: "${REQUESTTYPE}",
@@ -126,13 +126,13 @@ dojo.declare("js.config", null, {
     // INFO-POPUP SETTINGS
     // ------------------------------------------------------------------------------------------------------------------------
     //The labels displayed next to the input boxes when creating a new point, leaving them blank will use the defaults
-    InfoWindowCreateTitle: "Enter Comment Details",
+    InfoWindowCreateTitle: "Enter Purpose & Need Comment Details",
     InfoWindowCreateType: "",
     InfoWindowCreateComments: "",
     InfoWindowCreateName: "",
     InfoWindowCreatePhone: "",
     InfoWindowCreateEmail: "",
-
+	 InfoWindowCreateAttach: "",
     
 	// Info-popup is a popup dialog that gets displayed on selecting a feature
     // Set the content to be displayed on the info-Popup. Define labels, field values, field types and field formats
@@ -148,7 +148,11 @@ dojo.declare("js.config", null, {
         DisplayText: "Date Submitted:",
         AttributeValue: "${REQUESTDATE}",
         DataType: "date"
-    },],
+    },{
+        DisplayText: "Status:",
+        AttributeValue: "${STATUS}",
+        DataType: "string"
+    }],
 
     // Set this to true to show "Comments" tab in the info-Popup
     ShowCommentsTab: false,

@@ -73,6 +73,7 @@ body, html
     z-index: 1003;
     background-color: #1665A1;
     text-align: center;
+	
 }
 
 .divSplashScreenDialogContent
@@ -224,15 +225,15 @@ body, html
 
 .imgOptions
 {
-    height: 75px;
-    width: 150px;
+    height: 140px;
+    width: 85px;
 	
 }
 
 .imgApp
 {
-    width: 150px;
-    height: 70px;
+    width: 40px;
+    height: 65px;
 	
 	
 }
@@ -268,7 +269,7 @@ body, html
 
 .lblAppName
 {
-    padding-left: 175px;
+    padding-left: 75px;
 }
 
 /*---------------------------------------------------------------------------------------------------------*/
