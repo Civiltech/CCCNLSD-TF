@@ -71,7 +71,7 @@ body, html
 .divSplashScreenContent
 {
     z-index: 1003;
-    background-color: #009900;
+    background-color: #5C8533;
     text-align: center;
 	
 }
@@ -232,7 +232,7 @@ body, html
 
 .imgApp
 {
-    width: 40px;
+    width: 65px;
     height: 65px;
 	
 	
@@ -253,7 +253,7 @@ body, html
 .divApplicationHeader
 {
     vertical-align: middle;
-    background-color: #009900;
+    background-color: #5C8533;
     top: 0px;
     height: 75px;
     width: 100%;
@@ -269,7 +269,7 @@ body, html
 
 .lblAppName
 {
-    padding-left: 75px;
+    padding-left: 100px;
 }
 
 /*---------------------------------------------------------------------------------------------------------*/
@@ -290,7 +290,7 @@ body, html
 
 .tblHeader
 {
-    background-color: #1665A1;
+    background-color: #5C8533;
     -moz-border-radius-topleft: 7px;
     -moz-border-radius-topright: 7px;
     -moz-border-radius-bottomleft: 0px;
