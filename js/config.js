@@ -155,7 +155,7 @@ dojo.declare("js.config", null, {
     }],
 
     // Set this to true to show "Comments" tab in the info-Popup
-    ShowCommentsTab: true,
+    ShowCommentsTab: false,
 
     // Set this to true to show the Attach portion of the info-popup
     AllowAttachments: true,
