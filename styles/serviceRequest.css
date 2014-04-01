@@ -70,12 +70,12 @@ body, html
 }
 .divSplashScreenContent
 {
-	background-image:url("https://farm8.staticflickr.com/7165/13536590615_f126fd3047_t.jpg");
+	background-image:url("https://farm8.staticflickr.com/7349/13564967393_275efe699c_o.png");
 	background-repeat: no-repeat;
-	background-position: right top;
+	background-position: bottom right;
     z-index: 1003;
     background-color: #7ab63e;
-    text-align: left;
+    text-align: center;
 	
 }
 
