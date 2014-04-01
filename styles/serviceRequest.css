@@ -70,9 +70,11 @@ body, html
 }
 .divSplashScreenContent
 {
+	background-image:url("https://farm8.staticflickr.com/7165/13536590615_f126fd3047_t.jpg");
+	background-repeat: no-repeat;
     z-index: 1003;
-    background-color: #5C8533;
-    text-align: center;
+    background-color: #7ab63e;
+    text-align: right;
 	
 }
 
@@ -291,7 +293,7 @@ body, html
 
 .tblHeader
 {
-    background-color: #5C8533;
+    background-color: #7ab63e;
     -moz-border-radius-topleft: 7px;
     -moz-border-radius-topright: 7px;
     -moz-border-radius-bottomleft: 0px;
