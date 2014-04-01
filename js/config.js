@@ -117,7 +117,7 @@ dojo.declare("js.config", null, {
     InfoWindowHeader: "Review Purpose & Need Comment Details",
 
     // Choose content/fields for the info window
-    InfoWindowContent: "${REQUESTTYPE}",
+    InfoWindowContent: "${REQUESTTYPE}", 
 
     //Define Service request layer name
     RequestLayerName: "REQUESTTYPE",
@@ -127,7 +127,7 @@ dojo.declare("js.config", null, {
     // ------------------------------------------------------------------------------------------------------------------------
     //The labels displayed next to the input boxes when creating a new point, leaving them blank will use the defaults
     InfoWindowCreateTitle: "Enter Purpose & Need Comment Details",
-    InfoWindowCreateType: "",
+    InfoWindowCreateType: "Purpose & Need",
     InfoWindowCreateComments: "",
     InfoWindowCreateName: "",
     InfoWindowCreatePhone: "Mode:",
@@ -148,11 +148,7 @@ dojo.declare("js.config", null, {
         DisplayText: "Date Submitted:",
         AttributeValue: "${REQUESTDATE}",
         DataType: "date"
-    },{
-        DisplayText: "Status:",
-        AttributeValue: "${STATUS}",
-        DataType: "string"
-    }],
+    },],
 
     // Set this to true to show "Comments" tab in the info-Popup
     ShowCommentsTab: false,
