@@ -72,9 +72,10 @@ body, html
 {
 	background-image:url("https://farm8.staticflickr.com/7165/13536590615_f126fd3047_t.jpg");
 	background-repeat: no-repeat;
+	background-position: right top;
     z-index: 1003;
     background-color: #7ab63e;
-    text-align: right;
+    text-align: left;
 	
 }
 
