@@ -1026,7 +1026,7 @@ function ValidateRequestData() {
             return false;
         }
     } */
-    if (dojo.byId('txtPhone').value.length > 0) {
+    /*if (dojo.byId('txtPhone').value.length > 0) {
         if (!IsPhoneNumber(dojo.byId('txtPhone').value.trim())) {
             dojo.byId('txtPhone').focus();
             ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("enterValidPhone")[0].childNodes[0].nodeValue);
@@ -1037,7 +1037,7 @@ function ValidateRequestData() {
         dojo.byId('txtPhone').focus();
         ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("enterValidPhone")[0].childNodes[0].nodeValue);
         return false;
-    }
+    }*/
     if (dojo.byId('txtMail').value.length > 0) {
         if (!CheckMailFormat(dojo.byId('txtMail').value)) {
             dojo.byId('txtMail').focus();
