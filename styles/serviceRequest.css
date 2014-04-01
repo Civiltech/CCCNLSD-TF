@@ -70,9 +70,7 @@ body, html
 }
 .divSplashScreenContent
 {
-	background-image:url("https://farm8.staticflickr.com/7349/13564967393_275efe699c_o.png");
-	background-repeat: no-repeat;
-	background-position: bottom right;
+	
     z-index: 1003;
     background-color: #7ab63e;
     text-align: center;
