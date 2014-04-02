@@ -1086,7 +1086,7 @@ function IsPhoneNumber(value) {
 
 //Validate 5 digit number
 function IsZIPCode(value) {
-    var namePattern = /\d{5}/;
+    var namePattern = /^\d{5}$/;
     return namePattern.test(value);
 }
 
