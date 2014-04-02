@@ -1055,6 +1055,12 @@ function ValidateRequestData() {
             return false;
         } */
     } 
+	if (!(IsZIPCode(dojo.byId('txtPhone').value))) {
+		dojo.byId('txtPhone').focus();
+		ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("enterValidZIP")[0].childNodes[0].nodeValue);
+		return false;
+	}
+	
     return true;
 }
 
@@ -1076,6 +1082,12 @@ function IsPhoneNumber(value) {
     } else {
         return false;
     }
+}
+
+//Validate 5 digit number
+function IsZIPCode(value) {
+    var namePattern = /\d{5}/;
+    return namePattern.test(value);
 }
 
 //Hide create request container

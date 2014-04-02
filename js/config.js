@@ -130,14 +130,14 @@ dojo.declare("js.config", null, {
     InfoWindowCreateType: "Purpose & Need:",
     InfoWindowCreateComments: "",
     InfoWindowCreateName: "",
-    InfoWindowCreatePhone: "Mode:",
+    InfoWindowCreatePhone: "ZIP:",
     InfoWindowCreateEmail: "",
 	 InfoWindowCreateAttach: "",
     
 	// Info-popup is a popup dialog that gets displayed on selecting a feature
     // Set the content to be displayed on the info-Popup. Define labels, field values, field types and field formats
     InfoWindowData: [{
-        DisplayText: "Mode:",
+        DisplayText: "ZIP:",
         AttributeValue: "${PHONE}",
         DataType: "string"
     },{
