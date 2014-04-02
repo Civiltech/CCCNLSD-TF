@@ -114,7 +114,7 @@ dojo.declare("js.config", null, {
 
     // Info-window is a small, two line popup that gets displayed on selecting a feature
     // Set Info-window title. Configure this with text/fields
-    InfoWindowHeader: "Review Purpose & Need Comment Details",
+    InfoWindowHeader: "Idea Details",
 
     // Choose content/fields for the info window
     InfoWindowContent: "${REQUESTTYPE}",
@@ -126,7 +126,7 @@ dojo.declare("js.config", null, {
     // INFO-POPUP SETTINGS
     // ------------------------------------------------------------------------------------------------------------------------
     //The labels displayed next to the input boxes when creating a new point, leaving them blank will use the defaults
-    InfoWindowCreateTitle: "Enter Purpose & Need Comment Details",
+    InfoWindowCreateTitle: "Give Us Your Idea",
     InfoWindowCreateType: "Purpose & Need:",
     InfoWindowCreateComments: "",
     InfoWindowCreateName: "",
