@@ -127,7 +127,7 @@ dojo.declare("js.config", null, {
     // ------------------------------------------------------------------------------------------------------------------------
     //The labels displayed next to the input boxes when creating a new point, leaving them blank will use the defaults
     InfoWindowCreateTitle: "Give Us Your Idea",
-    InfoWindowCreateType: "Purpose & Need:",
+    InfoWindowCreateType: "Purpose & Need Category:",
     InfoWindowCreateComments: "",
     InfoWindowCreateName: "",
     InfoWindowCreatePhone: "ZIP:",
