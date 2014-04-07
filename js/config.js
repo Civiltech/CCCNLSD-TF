@@ -55,7 +55,7 @@ dojo.declare("js.config", null, {
     ApplicationIcon: "images/NLSDlogo.jpg",
 
     // Set splash window content - Message that appears when the application starts
-    SplashScreenMessage: "<h2>NORTH LAKE SHORE DRIVE STUDY</h2><h3>Ideas to <i>Redefine the Drive</i></h3>Click directly on the map to share your transportation related idea to improve the North Lake Shore Drive multi-modal corridor.  Each idea must correlate to a specific transportation mode as well as one of the identified project Purpose & Need categories.<br/><br/>Click the blue question mark icon in the upper right for more application help options and to view the map legend.",
+    SplashScreenMessage: "<h2>NORTH LAKE SHORE DRIVE STUDY</h2><h3>Ideas to <i>Redefine the Drive</i></h3>Click directly on the map to share your transportation related idea to improve the North Lake Shore Drive multi-modal corridor.  Each idea must correlate to one of the identified project Purpose & Need categories.<br/><br/>Click the blue question mark icon in the upper right for more application help options and to view the map legend.",
 
     // Set URL of help page/portal
     HelpURL: "help.htm",
