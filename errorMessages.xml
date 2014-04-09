@@ -20,7 +20,8 @@
     <blankAddress>Enter address to locate.</blankAddress>
     <serviceToLocate>Enter Request ID to locate.</serviceToLocate>
     <enterComment>Please enter comment.</enterComment>
-    <commentsLength>Comment must be included, and should not exceed 1000 characters.</commentsLength>
+    <commentsLength>Comment must not exceed 1000 characters.</commentsLength>
+    <commentsEmpty>You must include a comment.</commentsEmpty>
     <tinyURLEngine>Bitly API is not able to generate tiny URL.</tinyURLEngine>
     <geoLocation>You are currently outside the supported area.</geoLocation>
     <geolocationTimeout>Request timed out.</geolocationTimeout>

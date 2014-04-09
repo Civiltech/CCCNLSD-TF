@@ -992,7 +992,12 @@ function ValidateRequestData() {
         ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("selectRequestType")[0].childNodes[0].nodeValue);
         return false;
     }
-    if (dojo.byId('txtDescription').value.trim().length <= 0 || dojo.byId('txtDescription').value.trim().length > 1000) {
+    if (dojo.byId('txtDescription').value.trim().length <= 0) {
+        dojo.byId('txtDescription').focus();
+        ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("commentsEmpty")[0].childNodes[0].nodeValue);
+        return false;
+	}
+	if (dojo.byId('txtDescription').value.trim().length > 1000) {
         dojo.byId('txtDescription').focus();
         ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("commentsLength")[0].childNodes[0].nodeValue);
         return false;
