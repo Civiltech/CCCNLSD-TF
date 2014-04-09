@@ -237,7 +237,7 @@ function dojoInit() {
         dojo.removeClass(dojo.byId('divAddressContainer'), "hideContainerHeight");
         dojo.byId('divSplashScreenContent').style.width = "95%";
         dojo.byId('divSplashScreenContent').style.height = "95%";
-        //dojo.byId("divLogo").style.display = "none";
+        dojo.byId("divLogo").style.display = "none";
         dojo.byId('imgDirections').style.display = "none";
         dojo.byId("lblAppName").style.display = "none";
         dojo.byId("lblAppName").style.width = "80%";
