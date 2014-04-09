@@ -152,7 +152,7 @@
             </tr>
         </table>
     </div>
-    <<div id="divLogo" class="divLogo">
+    <div id="divLogo" class="divLogo">
         <table style="width: 100%; height: 100%;" cellpadding="2px" cellspacing="2px">
             <tr align="left" style="margin-top: 0px">
                 <td valign="top">
@@ -346,14 +346,9 @@
                                     <tr class="trTextAreaRowStyle">
                                         <td id="createPopUpComments" style="padding-top: 2px;" valign="top" align="left">
                                             <p>Comment:</p>
-											<!-- Next line added by AKW to implement character counter -->
 											<p><small><em><span id="charCount">1000</span> characters remaining.</em></small></p>
                                         </td>
                                         <td align="left">
-											<!-- Edited by AKW to implement character counter -->
-                                  <!--   uncomment this text area and remove the following one to restore original
-											<textarea placeholder="Enter comment" valign="middle" maxlength="1000" id="txtDescription"
-                                                class="txtDescription" onkeypress="if(dojo.isIE){return ImposeMaxLength(this, 999);}else{return ImposeMaxLength(this, 1000);}" ></textarea>  -->
                                             <textarea placeholder="Enter comment" valign="middle" maxlength="1000" id="txtDescription"
                                                 class="txtDescription"  onKeyPress="return charLimit(this)" onKeyUp="return characterCount(this)"></textarea> 
                                         </td>
@@ -387,7 +382,7 @@
                                     </tr>
                                     <tr id="trFileUpload" class="trRowStyle">
                                         <td id="createPopUpAttach" style="padding-top: 2px;" valign="middle" align="left">
-                                            Attach:<br /><small><em>5mb limit</em></small>
+                                            Attach:<br /><small><em>5 MB limit</em></small>
                                         </td>
                                         <td align="left" valign="middle">
                                             <table cellspacing="0" cellpadding="0" style="margin-left: 4px; width: 95%;">
@@ -540,16 +535,12 @@
                                             <tr valign="top">
                                                 <td align="left" colspan="2">
 													<p>Comment:</p>
-													<!-- Next line added by AKW to implement character counter
-													<p><em><span id="charCountSubComment">1000</span> characters remaining.</em></p> -->
                                                 </td>
                                             </tr>
                                             <tr valign="top">
                                                 <td colspan="2">
- 											<!-- Edited by AKW to implement character counter -->
                                                    <textarea placeholder="Enter comment" maxlength="1000" class="txtArea" id="txtComments"
                                                         onkeypress="if(dojo.isIE){return ImposeMaxLength(this, 999);}else{return ImposeMaxLength(this, 1000);}"></textarea>
-<!--														<textarea placeholder="Enter comment" maxlength="1000" class="txtArea" id="txtComments"  onKeyPress="return charLimit(this)" onKeyUp="return characterCountSubComment(this)"> -->
                                                 </td>
                                             </tr>
                                             <tr style="height: 25px;">
