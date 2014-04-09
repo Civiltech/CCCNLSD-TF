@@ -992,7 +992,7 @@ function ValidateRequestData() {
         ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("selectRequestType")[0].childNodes[0].nodeValue);
         return false;
     }
-    if (dojo.byId('txtDescription').value.trim().length > 0 && dojo.byId('txtDescription').value.trim().length > 1000) {
+    if (dojo.byId('txtDescription').value.trim().length <= 0 || dojo.byId('txtDescription').value.trim().length > 1000) {
         dojo.byId('txtDescription').focus();
         ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("commentsLength")[0].childNodes[0].nodeValue);
         return false;
@@ -1004,40 +1004,6 @@ function ValidateRequestData() {
             return false;
         }
     }
-/*    if (dojo.byId('txtMail').value == '' && dojo.byId('txtPhone').value == '') {
-        ShowSpanErrorMessage("spanServiceErrorMessage", "Email or Phone number is required.");
-        return;
-    }
-    if (dojo.byId('txtPhone').value == '') {
-        if (!CheckMailFormat(dojo.byId('txtMail').value)) {
-            dojo.byId('txtMail').focus();
-            ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("enterValidEmailId")[0].childNodes[0].nodeValue);
-            return false;
-        }
-    } else if (dojo.byId('txtMail').value == '') {
-        if (!IsPhoneNumber(dojo.byId('txtPhone').value.trim())) {
-            dojo.byId('txtPhone').focus();
-            ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("enterValidPhone")[0].childNodes[0].nodeValue);
-            return false;
-        }
-        if (dojo.byId('txtPhone').value.length < 10 || dojo.byId('txtPhone').value.length > 10) {
-            dojo.byId('txtPhone').focus();
-            ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("enterValidPhone")[0].childNodes[0].nodeValue);
-            return false;
-        }
-    } */
-    /*if (dojo.byId('txtPhone').value.length > 0) {
-        if (!IsPhoneNumber(dojo.byId('txtPhone').value.trim())) {
-            dojo.byId('txtPhone').focus();
-            ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("enterValidPhone")[0].childNodes[0].nodeValue);
-            return false;
-        }
-    }
-    if (dojo.byId('txtPhone').value.length > 10) {
-        dojo.byId('txtPhone').focus();
-        ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("enterValidPhone")[0].childNodes[0].nodeValue);
-        return false;
-    }*/
     if (dojo.byId('txtMail').value.length > 0) {
         if (!CheckMailFormat(dojo.byId('txtMail').value)) {
             dojo.byId('txtMail').focus();
@@ -1049,11 +1015,6 @@ function ValidateRequestData() {
             ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("emailIdLength")[0].childNodes[0].nodeValue);
             return false;
         }
-        /* if (dojo.byId('txtPhone').value.length > 10) {
-            dojo.byId('txtPhone').focus();
-            ShowSpanErrorMessage("spanServiceErrorMessage", messages.getElementsByTagName("enterValidPhone")[0].childNodes[0].nodeValue);
-            return false;
-        } */
     } 
 	if (!(IsZIPCode(dojo.byId('txtPhone').value))) {
 		dojo.byId('txtPhone').focus();
